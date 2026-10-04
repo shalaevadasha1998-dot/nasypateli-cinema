@@ -1,0 +1,142 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#0a0a0a">
+<title>саша — оператор, москва</title>
+<meta name="description" content="оператор для коммерческих съёмок, вертикальных роликов, брендов, блогеров и мероприятий в москве">
+<style>
+:root{--bg:#0a0a0a;--fg:#f3f0e8;--muted:#9f9b92;--accent:#d9ff47;--line:#262626}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--bg);color:var(--fg);font-family:Arial,Helvetica,sans-serif;font-weight:600}
+a{color:inherit;text-decoration:none}
+.wrap{width:min(1180px,calc(100% - 32px));margin:0 auto}
+.hero{min-height:100svh;display:flex;flex-direction:column;justify-content:space-between;padding:28px 0 36px;border-bottom:1px solid var(--line)}
+.top{display:flex;justify-content:space-between;gap:20px;font-size:14px;text-transform:lowercase}
+.hero h1{font-size:clamp(72px,16vw,220px);line-height:.78;letter-spacing:-.085em;margin:0 0 28px;text-transform:lowercase}
+.hero .sub{display:grid;grid-template-columns:1fr 1fr;gap:18px;align-items:end}
+.hero .lead{font-size:clamp(25px,4.5vw,64px);line-height:.98;letter-spacing:-.045em;max-width:900px}
+.pill{justify-self:end;border:1px solid var(--fg);border-radius:999px;padding:12px 18px;font-size:14px;white-space:nowrap}
+.stats{display:grid;grid-template-columns:repeat(3,1fr);gap:1px;background:var(--line);margin:0;border-bottom:1px solid var(--line)}
+.stat{background:var(--bg);padding:34px 24px 40px}
+.stat b{display:block;font-size:clamp(44px,8vw,105px);line-height:.9;letter-spacing:-.06em;color:var(--accent)}
+.stat span{display:block;color:var(--muted);font-size:13px;margin-top:12px;max-width:220px;line-height:1.3}
+.section{padding:90px 0}
+.kicker{color:var(--muted);font-size:13px;margin-bottom:30px}
+.section h2{font-size:clamp(42px,7vw,92px);line-height:.9;letter-spacing:-.06em;margin:0 0 50px;max-width:1000px}
+.grid{display:grid;grid-template-columns:repeat(2,1fr);gap:16px}
+.card{min-height:330px;border:1px solid var(--line);padding:26px;display:flex;flex-direction:column;justify-content:space-between;transition:.25s ease;background:linear-gradient(145deg,#111,#0b0b0b)}
+.card:hover{border-color:var(--accent);transform:translateY(-3px)}
+.card .name{font-size:clamp(30px,4vw,58px);line-height:.95;letter-spacing:-.045em}
+.card .meta{display:flex;justify-content:space-between;gap:16px;align-items:end}
+.card .role{color:var(--muted);font-size:13px;line-height:1.35}
+.card .views{font-size:clamp(24px,3.4vw,46px);color:var(--accent);letter-spacing:-.04em;text-align:right}
+.card .watch{margin-top:15px;font-size:13px;text-decoration:underline;text-underline-offset:3px}
+.services{display:grid;grid-template-columns:1fr 1fr 1fr;border-top:1px solid var(--line)}
+.service{padding:30px 18px;border-right:1px solid var(--line)}
+.service:last-child{border-right:0}
+.service b{display:block;font-size:26px;letter-spacing:-.03em;margin-bottom:8px}
+.service span{color:var(--muted);font-size:13px;line-height:1.45}
+.about{display:grid;grid-template-columns:1fr 1fr;gap:50px;align-items:start;border-top:1px solid var(--line)}
+.about p{font-size:clamp(24px,3.4vw,45px);line-height:1.06;letter-spacing:-.04em;margin:0}
+.small{color:var(--muted);font-size:14px;line-height:1.55;max-width:520px}
+.contact{min-height:75svh;display:flex;flex-direction:column;justify-content:flex-end;padding:90px 0 40px;border-top:1px solid var(--line)}
+.contact h2{font-size:clamp(58px,12vw,170px);line-height:.8;letter-spacing:-.075em;margin:0 0 40px}
+.contact p{font-size:18px;max-width:560px;line-height:1.35}
+.footer{display:flex;justify-content:space-between;gap:20px;color:var(--muted);font-size:12px;padding-top:50px}
+mark{background:var(--accent);color:#0a0a0a;padding:0 .08em}
+@media(max-width:760px){
+.hero .sub,.about{grid-template-columns:1fr}
+.pill{justify-self:start}
+.stats{grid-template-columns:1fr}
+.grid{grid-template-columns:1fr}
+.services{grid-template-columns:1fr}
+.service{border-right:0;border-bottom:1px solid var(--line)}
+.card{min-height:270px}
+.section{padding:64px 0}
+}
+</style>
+</head>
+<body>
+<main>
+<section class="hero">
+<div class="wrap top"><span>оператор</span><span>москва · выездные съёмки</span></div>
+<div class="wrap">
+<h1>саша</h1>
+<div class="sub">
+<div class="lead">снимает коммерческий контент, который хочется <mark>досмотреть</mark></div>
+<div class="pill">доступен для проектов</div>
+</div>
+</div>
+</section>
+
+<section class="stats">
+<div class="stat"><b>8,3 млн</b><span>просмотров у одного из роликов, где саша работал оператором</span></div>
+<div class="stat"><b>1,3 млн</b><span>просмотров у коммерческого ролика бренда</span></div>
+<div class="stat"><b>15</b><span>съёмочных дней в месяц комфортная загрузка</span></div>
+</section>
+
+<section class="section">
+<div class="wrap">
+<div class="kicker">избранные работы</div>
+<h2>никаких приписанных заслуг. ниже проекты, где саша отвечал именно за съёмку</h2>
+<div class="grid">
+<a class="card" href="https://www.tiktok.com/@korea.auto.life/video/7425543575951265025" target="_blank" rel="noopener">
+<div><div class="name">авто из кореи</div><div class="watch">смотреть работу</div></div>
+<div class="meta"><div class="role">роль<br>оператор</div><div class="views">8,3 млн</div></div>
+</a>
+<a class="card" href="https://www.instagram.com/reel/DHRPYHfoLvD/" target="_blank" rel="noopener">
+<div><div class="name">delyamer</div><div class="watch">смотреть работу</div></div>
+<div class="meta"><div class="role">роль<br>оператор</div><div class="views">1,3 млн</div></div>
+</a>
+<a class="card" href="https://www.instagram.com/reel/DLFCWavicqh/" target="_blank" rel="noopener">
+<div><div class="name">лекторович × торбосов</div><div class="watch">смотреть работу</div></div>
+<div class="meta"><div class="role">роль<br>оператор</div><div class="views">862 тыс</div></div>
+</a>
+<a class="card" href="https://www.ddinstagram.com/reel/DEISopXIU5M/" target="_blank" rel="noopener">
+<div><div class="name">лекторович</div><div class="watch">смотреть работу</div></div>
+<div class="meta"><div class="role">роль<br>оператор</div><div class="views">754 тыс</div></div>
+</a>
+<a class="card" href="https://www.instagram.com/reel/C-ILbE6st1j/" target="_blank" rel="noopener">
+<div><div class="name">сенсорика</div><div class="watch">смотреть работу</div></div>
+<div class="meta"><div class="role">роль<br>оператор</div><div class="views">41,5 тыс</div></div>
+</a>
+<a class="card" href="https://disk.yandex.ru/d/h1oSFkUaj66NBw" target="_blank" rel="noopener">
+<div><div class="name">баранка</div><div class="watch">смотреть материалы</div></div>
+<div class="meta"><div class="role">роль<br>оператор</div><div class="views">проект</div></div>
+</a>
+</div>
+</div>
+</section>
+
+<section class="section">
+<div class="wrap">
+<div class="kicker">форматы работы</div>
+<div class="services">
+<div class="service"><b>оператор на съёмку</b><span>короткий коммерческий контент, блоги, эксперты, мероприятия, рекламные задачи</span></div>
+<div class="service"><b>оператор и монтаж</b><span>съёмка и готовый материал под публикацию, объём рассчитывается под задачу</span></div>
+<div class="service"><b>съёмка под ключ</b><span>при необходимости продюсер собирает команду и технику под конкретный проект</span></div>
+</div>
+</div>
+</section>
+
+<section class="section">
+<div class="wrap about">
+<div><div class="kicker">как работает</div><p>саша обычно закрывает техническую часть съёмки самостоятельно и подключает дополнительных специалистов только когда этого требует задача</p></div>
+<div class="small">техника собирается под проект через аренду, поэтому нет искусственного ограничения одним комплектом. ориентир по занятости — до 15 съёмочных дней в месяц. детские мероприятия и случайные низкобюджетные заказы не являются основным направлением.</div>
+</div>
+</section>
+
+<section class="contact">
+<div class="wrap">
+<div class="kicker">обсудить съёмку</div>
+<h2>давайте<br>снимать</h2>
+<p>если вам прислали эту страницу, ответьте в том же диалоге. продюсер уточнит задачу, дату и бюджет и быстро подтвердит возможность съёмки.</p>
+<div class="footer"><span>саша · оператор · москва</span><span>портфолио 2026</span></div>
+</div>
+</section>
+</main>
+</body>
+</html>
